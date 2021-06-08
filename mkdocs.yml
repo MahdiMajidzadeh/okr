@@ -1,12 +1,12 @@
-site_name: داکی
+site_name: اوکی‌آر
 
-copyright: 'Copyright &copy; 2020 Mahdi Majidzadeh'
+copyright: 'Copyright &copy; 2021 Mahdi Majidzadeh'
 
-site_url: 'https://mahdimajidzadeh.github.io/docie/'
+site_url: 'https://okr.mahdimajidzadeh.ir'
 site_author: 'Mahdi Majidzadeh'
 
-repo_name: 'docie'
-repo_url: 'https://github.com/MahdiMajidzadeh/docie'
+repo_name: 'okr'
+repo_url: 'https://github.com/MahdiMajidzadeh/okr'
 
 docs_dir: 'pages'
 site_dir: 'docs'

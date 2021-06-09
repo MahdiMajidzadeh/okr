@@ -1,4 +1,4 @@
-site_name: اوکی‌آر
+site_name: همه چیز درباره اوکی‌آر
 
 copyright: 'Copyright &copy; 2021 Mahdi Majidzadeh'
 
@@ -8,18 +8,23 @@ site_author: 'Mahdi Majidzadeh'
 repo_name: 'okr'
 repo_url: 'https://github.com/MahdiMajidzadeh/okr'
 
-docs_dir: 'pages'
-site_dir: 'docs'
-lang: fa
-
 theme:
   name: 'material'
+  logo: extra/images/logo.png
+  favicon: extra/images/fav.png
+  palette:
+    primary: teal
   highlightjs: true
   # custom_dir: theme
   include_sidebar: false
   direction: 'rtl'
   language: 'fa'
   font: false
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
 
 plugins:
   - search
@@ -38,5 +43,12 @@ extra:
     language: 'en, fa'
 
 nav:
-  - شروع: 'index.md'
-  - پیش نیازها: 'requirement.md'
+  - دانشنامه:
+    - تاریخچه: wiki/history.md
+  - نمونه‌ها:
+    - 'همه': 'example/index.md'
+    - مارکتینگ: 'example/marketing.md'
+  - منابع:
+    - کتاب‌ها: 'sources/books.md'
+  - شرکت‌ها:
+    - همه: 'example/index.md'

@@ -5,25 +5,38 @@ copyright: 'Copyright &copy; 2021 Mahdi Majidzadeh'
 site_url: 'https://okr.mahdimajidzadeh.ir'
 site_author: 'Mahdi Majidzadeh'
 
-repo_name: 'okr'
+repo_name: 'OKR Majidzadeh'
 repo_url: 'https://github.com/MahdiMajidzadeh/okr'
 
 theme:
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   name: 'material'
   logo: extra/images/logo.png
   favicon: extra/images/fav.png
   palette:
     primary: teal
   highlightjs: true
-  # custom_dir: theme
   include_sidebar: false
   direction: 'rtl'
   language: 'fa'
   font: false
   features:
     - navigation.instant
-    - navigation.tabs
     - navigation.indexes
+    - navigation.tracking
+    - navigation.tabs
     - navigation.top
 
 plugins:
@@ -33,7 +46,11 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - footnotes
   - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_css: 
   - 'extra/style.css'  
@@ -52,3 +69,4 @@ nav:
     - کتاب‌ها: 'sources/books.md'
   - شرکت‌ها:
     - همه: 'example/index.md'
+
